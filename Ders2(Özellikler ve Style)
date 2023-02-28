@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ders2</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p title="baslik">Elementler ve Özelliklerini inceleyelim.</p>
+    <p id="satir1">Birinci Satir</p>
+    <p id="satir2">İkinci Satir</p>
+   
+    <img src="resimler/pexels-nextvoyage-730662.jpg" alt="Duvar Kağıdı" height="100px" /> <br>
+    
+    <a href="http://www.google.com" target="_blank">GOOGLE</a> <br>
+   
+    <button type="button" disabled>Bu aktif olmayan bir butondur.</button><br>
+    <button type="button">Bu aktif bir butondur.</button><br>
+   
+    <p style="color:red; font-size: 40px;">Bu yazi kirmizi renklidir ve 40px büyüklüğündedir.</p>
+</body>
+
+</html>
