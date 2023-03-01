@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Metin ve Paragraflar</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>En Üst Seviye Başlık</h1>
+    <h2>H2 seviye başlık</h2>
+    <h6>En alt seviye başlık</h6>
+    <p>Bu bir cümledir.</p>
+    <p>Bu bir paragraf metnidir.</p>
+    <p>Bu da <b>paragrafın</b> ikinci satırıdır.</p>
+    <pre>Emirhan BARAN</pre><br>
+    <b>Merhaba</b><br>
+    <i>İtalik</i><br>
+    <u>Altı Çizili</u><br>
+    <b><u><i>Kalın İtalik ve Altı Çizili Aynı Anda Kullanılmıştır</i></u></b><br>
+    <font><del>Kampanya</del></font><br>
+    <font>H<sub>2</sub>O</font><br>
+    <font>5<sup>3</sup></font>
+</body>
+
+</html>
