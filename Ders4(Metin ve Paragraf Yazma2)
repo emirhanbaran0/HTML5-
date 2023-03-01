@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sayfa4</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <font>Bu cümlede işaretlenmiş <mark>kelime</mark> bulunmaktadır.</font>
+        <li>Eleman1</li>
+        <li>Eleman2</li>
+        <li>Eleman3</li><br>
+        <font>&nbsp;&nbsp;&nbsp; Düzensiz Liste</font>
+        <ul style="list-style-type: circle;">
+            <li>Süt</li>
+            <li>Yumurta</li>
+            <li>Peynir</li>
+        </ul>
+
+        <font>&nbsp;&nbsp;&nbsp; Düzenli Liste</font>
+        <ol type="I">
+            <li>Birinci Satir</li>
+            <li>İkinci Satir</li>
+            <li>Üçüncü Satir</li>
+            
+        </ol>
+    </body>
+</html>
