@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>5. Sayfam</title>
+    </head>
+    <body>
+        <font color="red">Bu yazi kırmızıdır.</font><br>
+        <font style="color:red;background-color: black;">Bu yazi kirmizidir.</font><br>
+        <font style="color:rgb(200, 20, 80)">RGB ile renk tanımlandı.</font><br>
+        <font style="color:#AD1299;"># Kullanılarak renk tanımlandı.</font><br>
+        <font size="5">5 ölçülü yazı</font><br>
+        <font style="font-size: 50px;">50px ölçülü yazı</font><br>
+        <font style="font-size: 50pt;">50pt ölçülü yazı</font><br>
+        <font style="font-size: 100%;">%100 oranında yazı</font><br>
+        <font style="font-size: 250%;">%250 oranında yazı</font><br>
+        <font face="Impact">Impcat yazı tipi</font><br>
+        <font face="Tahoma">Tahoma yazı tipi</font><br>
+        <font face="Verdana">Verdana yazı tipi</font><br>
+        <font style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Segoe UI yazı tipi</font><br>
+        <p style="text-align: right;">Sağa Hizalı</p><br>
+        <p style="text-align: left;">Sola Hizalı</p><br>
+        <p align="center">a</p>
+    </body>
+</html>
