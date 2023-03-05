@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ses Ve Video</title>
+    </head>
+    <body>
+        <p>Yazı ile bağlantı</p>
+        <a href="https://www.google.com" target="_blank">Google'a GİT...</a>
+        <p>ZIP Dosyasına Bağlantı...</p>
+        <a href="Emirhan.zip" target="_self">ZIP Dosyasını İndir</a>
+        <p>Resim İle Bağlantı...</p>
+        <a href="https://www.google.com" target="_blank"><img src="resimler/logo.jpg"/></a>
+        <iframe src="index2.html" width="150" height="150" scrolling="no" style="border: none;" ></iframe> 
+        <video poster="resimler/pexels-nextvoyage-730662.jpg" src="videolar/kedi-65438.mp4" width="150" controls preload="auto" autoplay muted></video>
+        <audio src="sesler/typical-trap-loop-2b-130751.mp3" controls loop muted autoplay></audio>
+    </body>
+</html>
