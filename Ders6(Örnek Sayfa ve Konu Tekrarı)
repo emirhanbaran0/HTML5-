@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Örnek Sayfa</title>
+    </head>
+    <body style="background-color: rgb(12, 23, 20);">
+    <h1 style="background-color: cadetblue;color: rgb(12, 23, 20);text-align: center;font-family: Arial, Helvetica, sans-serif;">SAYFA BAŞLIĞI</h1> 
+    <img src="resimler/logo.jpg" width="75" alt="Emirhan BARAN Logo"/>  
+    <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: deeppink;">Örnek Sayfamıza Hoşgeldiniz</h2>  
+    <h2 style="color: crimson;">Liste</h2>
+    <ul style="color: burlywood; list-style: none; font-family: Georgia, 'Times New Roman', Times, serif;font-size: medium;">
+        <li><a href="index5.html" target="_blank">Sayfa</a> </li>
+        <li><a href="index4.html" target="_blank">Hakkımızda</a></li>
+        <li><a href="index3.html" target="_blank">İletişim</a></li>
+    </ul>
+    <h3 style="color: aliceblue;text-align: center;background-color: chocolate;">Sayfa İçeriği</h3>
+    <p style="color: chartreuse;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: justify;">Bu örnek bir sayfadır.Buraya sayfa hakkında içerikler eklenebilir.Bu sayfayı şuana kadar öğrendiğimiz bilgilerle 
+        oluşturduk.Sayfanın görünümü çok sade ve içerisinde henüz çok fazla biçimlendirme yoktur. HTML5 sayesinde,sayfamızda yer 
+        alan elementler kullanıcının sayfayı büyütüp küçültmesine 
+        bağlı olarak otomatik şekilde hizaya girmekte ve tümü sayfa içerisinde görüntülencek şekilde hizalanmaktadır.
+    </p>
+    <br><br>
+    <font style="color: darkred; font-size: larger ; "><b><u>Bu sayfa Emirhan BARAN tarafından oluşturulmuştur.</u></b></font>
+    </body>
+</html>
