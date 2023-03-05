@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <style>
+           #p1{color: chocolate; background-color: darkgoldenrod;}
+           .stil{background-color: antiquewhite;font-size: 20px;}
+        </style>
+    </head>
+    <body>
+       <p id="p1">Paragraf1</p>
+       <p id="p2">Paragraf2</p> 
+       <p id="p3">Paragraf3</p>
+       <p id="p1">Paragraf4</p>
+       <p id="p5">Paragraf5</p>
+       <p class="stil">Paragraf6</p>
+    </body>
+</html>
