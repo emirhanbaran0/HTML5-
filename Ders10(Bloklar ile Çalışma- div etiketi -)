@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bloklar-DIV Etiketi</title>
+    </head>
+    <body>
+        <div style="background-color: yellow;">Bu kutunun zemini sarıdır.</div>
+        <div style="padding: 50px;border: 2px solid black;">Bu kutunun etrafında siyah çerçeve vardır ve kutu içindeki yazı 4 taraftan 50px ötelenmiştir.</div><br>
+        <div align="center" style="border: 5px ridge gray; padding: 10px;">
+            <b>Logo</b>
+            <div>
+                <img src="resimler/logo.jpg" alt="logo">
+            </div>
+            <div>Bu logo çalışması EB yazılım tarafından görüntülenmiştir.</div>
+        </div>
+        <!--YORUM SATIRI BU ŞEKİLDE YAPILIR-->
+    </body>
+</html>
