@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form ve Form Olayları1</title>
+    </head>
+    <body>
+        <!--Başlık oluşturmak için kullanılır. <p> etiketine benzerdir.-->
+        <label>BAŞLIK</label><br>
+        <!--Tek Satırlık metin kutusudur.Klavyeden giriş almak için kullanılır.Formlarda birden fazla input bulunabilir.
+        Bu yüzden bir name özelliği ile birbirlerinden ayrılmalıdır. -->
+        <input type="text" name="isim"  style="width: 305px;" placeholder="İsim Giriniz..."></input><br><br>
+        <!--Çok satırlı metin kutusudur.Birden fazla satır içererek bir paragraf girişi yapılması sağlanır.-->
+        <textarea type="text" name="mesaj" style="width: 150px; height: 100px;" placeholder="Paragraf Giriniz..."></textarea><br><br>
+        <input type="text" readonly value="Sadece okunabilir metin"></input>    <br><br>
+        <input type="text" required  name="İsim Soyisim">*Zorunlu Alan</input> <br><br>
+        <input disabled value="Pasif,yazı yazılamayan input alanı"></input>  <br><br>
+        <textarea autofocus>Sayfa yükleniğinde bu kutu içerisindeki metin işaretlenir. </textarea>  <br><br>
+        <textarea maxlength="40">Buraya en fazla 40 karakter sığar. </textarea>
+    </body>
+</html>
