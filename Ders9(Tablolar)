@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tablolar</title>
+        <style>
+            #mevsimler-aylar{border: 3px solid black; border-spacing: 10px;} 
+            #t1{background-color: aqua; color: darkmagenta; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+            tbody{border: 1px solid black; background-color: aquamarine;}
+            tfoot{background-color: blueviolet; color: darkblue;font-size: small;}
+       </style>
+    </head>
+    <body>
+       <table id="mevsimler-aylar" cellspacing="5px">
+        <col style="width: 40%;">
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+        <col style="width: 20%;">
+        <thead id="t1">
+             <th>Mevsimler</th><th>1. Ay</th><th>2. Ay<th>3. Ay</th>
+         </thead>
+         <tbody
+            <tr>
+                <td>Kış</td>
+                <td>Aralık</td>
+                <td>Ocak</td>
+                <td>Şubat</td>
+            </tr>
+            <tr>
+                <td>İlkbahar</td>
+                <td>Mart</td>
+                <td>Nisan</td>
+                <td>Mayıs</td>
+            </tr>
+            <tr>
+                <td>Yaz</td>
+                <td>Haziran</td>
+                <td>Temmuz</td>
+                <td>Ağustos</td>
+            </tr>
+            <tr>
+                <td>Sonbahar</td>
+                <td>Eylül</td>
+                <td>Ekim</td>
+                <td>Kasım</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">Bu tablo xx yazılıma aittir.</td>
+        </tfoot>
+        </table> 
+    </body>
+</html>
