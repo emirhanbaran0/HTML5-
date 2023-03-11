@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formlar ve form Olayları 2</title>
+
+    </head>
+<body>
+    <form>
+        <label >Cinsiyet</label><br>
+        <input name="cinsiyet" type="radio" value="erkek">Erkek</input>
+        <input  name="cinsiyet" type="radio" value="kız">Kız</input>
+    </form>
+    <form>
+        <label><b>Milliyetler</b></label><br>
+        <input name="millet" type="checkbox" value="turk">Türk</input>
+        <input name="millet" type="checkbox" value="alman">Alman</input>
+        <input name="millet" type="checkbox" value="fransiz">Fransız</input>
+        <input name="millet" type="checkbox" value="ispanyol">İspanyol</input>
+    </form>
+    <form>
+        <label>URL</label><br>
+        <input type="url"></input>
+    </form>
+
+   <form>
+    <label> Sayı Seçiniz</label><br>
+    <input type="number" max="100" min="20" value="50"></input>
+   </form>
+   
+   <form oninput="cikti.value=deger.value">
+        <label>Sayı Aralığı: </label>
+        <input type="range" max="100" min="0" value="10"  style="color: aquamarine;background-color: brown;" name="deger"></input>
+        <input type="output" value="0" style="width: 40px;" name="cikti"></input>
+    </form>
+
+    <form >
+        <label>Email:</label>
+        <input type="email"></input>
+    </form><br>
+    
+    <form >
+        <label>Date:</label>
+        <input type="date"></input>
+    </form><br>
+
+    <form >
+        <label>Month:</label>
+        <input type="month"></input>
+    </form><br>
+
+    <form >
+        <label>Week:</label>
+        <input type="week"></input>
+    </form><br>
+
+    <form >
+        <label>Time:</label>
+        <input type="time"></input>
+    </form><br>
+
+    <form >
+        <label>Date and Time:</label>
+        <input type="datetime-local"></input>
+    </form><br>
+
+</body>
+</html>
