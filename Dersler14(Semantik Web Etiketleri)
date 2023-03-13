@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Semantic WEB Etiketleri</title>
+        <script>
+            function saatDakikaYaz(){
+                var zaman= new Date();
+                var saat=zaman.getHours();
+                var dakika=zaman.getMinutes();
+                var saniye=zaman.getSeconds();
+                document.getElementById("saat").innerHTML=saat;
+                document.getElementById("dakika").innerHTML=dakika;
+                document.getElementById("saniye").innerHTML=saniye;
+            }
+        </script>
+    </head>
+    <body onload="saatDakikaYaz()">
+        <article>
+            <h1>MAKALE</h1>
+            <p>Makalenin içeriği</p>
+        </article>
+        <aside style="text-align: right;">
+            <h1>MAKALE 2</h1>
+            <p>Makale 2 nin içeriği...</p>
+        </aside>
+        <details>
+           <p>Burada site hakkında bilgiler mevcuttur...</p>
+        </details>
+        <figure>
+            <figcaption>Logo</figcaption>
+            <img src="resimler/logo.jpg" style="height: 50px;" alt="logo">
+        </figure>
+        <footer>Bu sayfa EB programlama tarafından oluşturulmuştur</footer>
+        <header>
+            <h1>Sitemin Başlığı</h1>
+            <p>Bu da Sitemin Sloganıdır!</p>
+        </header>
+        <hgroup>
+            <h1>Başlık İfADESİ</h1>
+        </hgroup>
+        <mark>Yazı işaretlenmiştir.</mark>
+        <nav>
+            <div style="background-color: darkred; padding: 5px;width: 290px; text-align: center;" >
+                <a href="file:///C:/Users/asus/Desktop/HTML5/index10.html">Anasayfa</a> |
+                <a href="file:///C:/Users/asus/Desktop/HTML5/index11.html">Haberler</a> |
+                <a href="file:///C:/Users/asus/Desktop/HTML5/index12.html">Yeni Özellikler</a>
+            </div>
+            <section>
+                <h3>
+                    Metin Parçası
+                </h3>
+                <p>Buraya section etiketinin metin parçası yazılmıştır</p>
+            </section>
+            <details>
+            <summary>
+                Copyright
+                <p>Bu sayfadaki içerikler telif hakkı ile korunmaktadır!</p>
+            </summary>
+            </details>
+            <div>
+                Saat şu anda: 
+                <time>
+                    <b id="saat"></b>:<b id="dakika"></b>:<b id="saniye"></b>
+                </time>
+            </div>
+        </nav>
+    </body>
+</html>
