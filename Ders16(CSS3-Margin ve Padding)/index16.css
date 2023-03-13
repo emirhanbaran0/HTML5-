@@ -1,0 +1,24 @@
+/* Margin=Dış Kenar Boşluğu */
+/*Padding iç boşluk anlamına gelir.*/
+#kutu_1{
+    /*      Üst  Sağ  Alt  Sol   taraftan olan boşluklar */
+    margin: 50px 20px 40px 10px;
+    padding: 30px 50px 20px 10px ;
+    width: auto;
+    height: auto;
+    float: left;
+    background-color: beige;
+    border: 5px solid yellow;
+}
+#kutu_2{
+    border: 3px dashed navy;
+    float: left;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 50px 15px; 
+    margin-bottom: 10px;
+}
+body{
+    margin: 0px;
+}
