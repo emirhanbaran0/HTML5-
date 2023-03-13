@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS3 , SASS -SCSS ve Örnek Uygulamalar</title>
+  <link rel="stylesheet" href="ornek.css" type="text/css">
+        <style>
+            h1{ 
+                /* CSS YOURM SATIRI */
+                color: red;
+                text-align: center;
+                font-style: italic;
+                text-shadow: 5px 3px 2px yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <!--CSS=Cascading Style Sheets(Basamaklanmış Stil Katmanları)-->
+        <h1>Başlık1</h1>
+        <h1 style="background-color: aqua;">Başlık2</h1>
+        <h2>Başlık3</h2>
+    </body>
+</html>
