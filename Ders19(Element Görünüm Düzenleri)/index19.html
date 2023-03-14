@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Element Görünüm Düzenleri</title>
+        <link rel="stylesheet" type="text/css" href="index20.css"/>
+        <script>
+            function reklamKapat(){
+                document.getElementById("kutu").style.display="none"
+            }
+        </script>
+    </head>
+    <body>
+        <div id="kutu">
+        <input id="kapat" type="button" value="X" onclick="reklamKapat();"></input>
+        <p>X butonuna bastığınızdda bu ifade görünmez olacaktır</p>
+    </div>
+    <div id="kutu2">Kutu2 </div>
+    <div id="kutu3" >Bu paragrafın içeriğinde yer alan resim <span class="grup">
+        <img src="resimler/logo.jpg"/></span>
+        <span class="grup"> Bu kelimeler </span> ve <span class="grup"> bu kelimer </span>
+        yeni satıra geçti.
+    </div>
+    <div id="kutu4">
+        Bu paragrafın içeriğinde yer alan resim <span class="grup1">
+            <img src="resimler/logo.jpg"/></span>
+            <span class="grup1"> Bu kelimeler </span> ve <span class="grup1"> bu kelimer </span>
+            yeni satıra geçti.
+    </div>
+    <p id="a">A</p>
+    <p id="b">B</p>
+    <p id="c">C</p>
+    <p id="d">D</p>
+    <p id="e">E</p>
+    </body>
+</html>
