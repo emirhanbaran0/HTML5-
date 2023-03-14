@@ -1,0 +1,32 @@
+div{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid blue;
+}
+#d1{
+ width: 20em;
+}
+#d2{
+    width: 20ex;
+}
+#d3{
+    width: 20px;
+}
+#d4{
+    width: 20in;
+}
+#d5{
+    width: 20mm;
+}
+#d6{
+    width: 20cm;
+}
+#d7{
+    width: 20pt;
+}
+#d8{
+    width: 20%;
+}
+#d9{
+    width: auto;
+}
