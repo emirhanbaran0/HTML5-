@@ -1,0 +1,46 @@
+li:first-of-type{
+    color: red;
+    background-color: silver;
+}
+input:focus{
+    background-color: aqua;
+}
+a:hover{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+input:in-range{
+    background-color: chartreuse;
+
+}
+input:out-of-range{
+    background-color: red;
+}
+#e-mail:invalid{
+    background-color: red;
+    color: wheat;
+}
+option:last-child{
+    color: red;
+    background-color: silver;
+}
+option{
+    font-size: 30px;
+}
+p:last-of-type{
+    font-size: 50px;
+}
+p:last-of-type b{
+    background-color:silver;
+    color: green;
+}
+a:link{
+    color: red;
+    font-size: 30px;
+    box-shadow: 0px 3px 5px black;
+}
+p:not(.p1){
+    text-align: center;
+}
