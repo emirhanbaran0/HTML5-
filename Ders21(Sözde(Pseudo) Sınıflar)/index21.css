@@ -1,0 +1,33 @@
+a:active{
+    color: gray;
+    background-color: red;
+}
+option:checked{
+    color: red;
+    background-color: blanchedalmond;
+    font-size: 15px;
+}
+select{
+    width: 100px;
+    font-size: small;
+}
+input:disabled{
+        background-color: red;
+}
+div{
+    background-color: aqua;
+    color: white
+}
+div:empty{
+    background-color: black;
+    height: 20px;
+}
+input:enabled{
+    background-color: blueviolet;
+}
+p:first-child{
+    font-size: 50px;
+}
+p:first-child b{
+    background-color: red;
+}
