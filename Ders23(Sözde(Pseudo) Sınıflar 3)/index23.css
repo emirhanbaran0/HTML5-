@@ -1,0 +1,28 @@
+p:nth-child(2){
+background-color: black;
+color: pink;
+}
+p:nth-last-child(1){
+    background-color: blue;
+    color: yellow;
+}
+ p:only-child{     /* Yalniz ise stil ver,üst element şartı vardır */
+    background-color: chocolate;
+    text-align: center;
+}
+input:optional{
+    background-color: green;
+    color: blanchedalmond;
+}
+input:read-only{
+    background-color: darkgoldenrod;
+}
+/* :root -> Kök hedef belirtilir, aslında kök hedef her zaman body olmaktadır. */
+:root{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+:target{
+    background-color: blue;
+    border: 3px solid palevioletred;
+}
