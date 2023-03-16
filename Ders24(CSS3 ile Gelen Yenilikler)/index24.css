@@ -1,0 +1,59 @@
+:target{
+    background-color: yellow;
+    color: red;
+
+}
+/* AKILLI SEÇİCİLER VE KOMUT DESENLER */
+/* 
+    [özellik^=değer] Elementin başladığı karakter grubunu belirler.
+    [özellik$=değer] Elementin bittiği karakter grubunu belirler.
+    [özellik*=değer] Elementin içinde yer alan  karakteri tespit eder.
+*/
+p[id^="bas"]{
+    background-color: red;
+    color: silver;
+}
+p[id$="in"]{
+    background-color: green;
+    color: black;
+}
+img[src*="logo"]{
+    border: 10px solid wheat;
+    border-top-left-radius: 10px 20px;
+    align-items: center;
+}
+img[src*="logo"]{
+    border: 10px solid wheat;
+    border-top-left-radius: 10px 20px;
+    align-items: center;
+}
+img[src*="pexel"]{
+    border: 3px dotted red;
+   border-radius: 20px;
+    align-items: center; 
+}
+img[src*="Ekran"]{
+    border: 10px dashed yellowgreen;
+    border-top-left-radius: 10px 20px;
+    align-items: center;
+}
+img[src*="Ders"]{
+    border: 10px double pink;
+    border-top-left-radius: 10px 20px;
+    align-items: center;
+}
+img[src*="elma"]{
+    border: 10px ridge gray;
+    border-top-left-radius: 10px 20px;
+    align-items: center;
+}
+img[src*="armut"]{
+    border: 10px inset orange;
+    border-top-left-radius: 10px 20px;
+    align-items: center;
+}
+img[src*="mandalina"]{
+    border: 10px outset green;
+    border-top-left-radius: 10px 20px;
+    align-items: center;
+}
