@@ -1,0 +1,21 @@
+.golgeli-kutu{
+    background-color: green;
+                /*x mesafe , y mesafe ,gölge bulanıklığı,gölgenin genişlemesi,gölge rengi  */
+    box-shadow: 10px 10px 5px 1px gray;
+    height: auto;
+    width: 250px;
+    padding: 20px;
+}
+.golgeli-kutu > p{
+    /*            gölgenin rengi ,x mesafesi, y,mesafesi, bulanıklık */
+    text-shadow: gainsboro 5px 5px 1px ;
+}
+body{
+    background-image: url(resimler/mandalina.jpeg);
+}
+p:last-child{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 60,0.5);
+    text-shadow: white 2px 2px 1px;
+}
