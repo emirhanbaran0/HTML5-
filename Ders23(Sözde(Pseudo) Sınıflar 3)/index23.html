@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="index24.css"/>
+        <title>Sözde(Pseudo) Sınıflar 3</title>
+    </head>
+    <body>
+        <p>Paragraf 1</p>
+        <p>Paragraf 2</p>
+        <p>Paragraf 3</p>
+        <p>Paragraf 4</p>
+
+        <div><p>Paragraf 1</p></div>
+        <div><p>Paragraf 1</p><p>Paragraf2</p></div>
+        <p>Aşağıdaki formu doldurunuz!</p>
+        <p>İsim Soyisim: </p>
+        <input type="text" name="isim" required placeholder="Zorunlu  alan"/>
+        <p>Meslek: </p> <input name="meslek" type="text" placeholder="Opsiyonel Alan"/>
+        <p>Ülke: </p><input type="text" name="ülke" value="Türkiye" readonly/>
+        <input type="button" value="1.satırı hedefle" onclick="window.location.href='#satir_1'"/>
+        <a href="#satir_2">İkinci satiri hedefle! </a>
+        <p id="satir_1">Emirhan</p>
+        <p id="satir_2">Baran</p>
+    </body>
+</html>
