@@ -1,0 +1,23 @@
+/* Standart Boşlukları Sıfırla */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Esnek Kapsayıcı(Container) */
+.kapsayici{
+    width: 75%;
+    background-color: silver;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* Esnek Ögeler(Flex İtems) */
+.eleman{
+    background-color: aquamarine;
+    border: 2px solid red;
+    text-align: center;
+    padding: 10px;
+}
