@@ -1,0 +1,49 @@
+@keyframes animasyonum{
+    0%{background-color: orange;}
+    25%{background-color: aqua;}
+    50%{background-color: yellow;}
+    75%{background-color: blue;}
+    100%{background-color: red;}
+}
+@keyframes animasyonum2{
+    0%{color: red; font-size: 10px;font-weight: bolder;}
+    25%{color: yellow; font-size: 30px;font-style: italic;}
+    50%{color: black; font-size: 100px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    75%{color: white; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    100%{color: orange; font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+}
+@keyframes kosu-animasyon{
+    0%{background-color: antiquewhite; color: red; font-size: 10px;font-weight: bolder; }
+    25%{background-color: darkkhaki; color: yellow; font-size: 30px;font-style: italic;} 
+    50%{background-color: aqua; color: black; font-size: 100px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    75%{background-color: black; color: white; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    100%{background-color: brown; color: orange; font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    from{left: 0px;}
+    to{left: 600px;}
+}
+.kutu{
+    /*  Animasyon Değerleri */
+
+    animation-name: animasyonum; /* Kullanılacak olan Animasyon ismi  yazılır  */
+    animation-duration: 3s;     /* Kullanılacak olan Animasyonda her geçişin ne kadar süreceği  yazılır  */
+    animation-iteration-count: 10; /* Kullanılacak olan Animasyonun kaç kez tekrar edileceği  yazılır  */
+    /* Kutu Özellikleri */
+    width: 500px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+f{
+    animation-name: animasyonum2;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+}
+div{
+    height: 65px;
+    position: relative;
+    animation:kosu-animasyon 10s;
+}
+.kutular1{animation-timing-function: linear;}
+.kutular2{animation-timing-function: ease;}
+.kutular3{animation-timing-function: ease-in;}
+.kutular4{animation-timing-function: ease-out;}
+.kutular5{animation-timing-function: ease-out;}
