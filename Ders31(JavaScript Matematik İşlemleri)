@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Matematik İşlemleri</title>
+    </head>
+    <body>
+           <script>
+            var a=Math.random();
+            document.write(a*10 + "<br>");
+            var b=-10;
+            document.write(Math.abs(b)  + "<br>");
+            document.write(Math.max(5,6,12,-55)  + "<br>");
+            document.write(Math.min(5,6,12,-55)  + "<br>");
+            document.write(Math.ceil(5.36)  + "<br>");
+            document.write(Math.floor(5.76)  + "<br>");
+            document.write(Math.round(5.51)  + "<br>");
+            document.write(Math.sqrt(4)  + "<br>");
+            document.write(Math.pow(3,2)  + "<br>");
+            document.write(Math.sin(180)  + "<br>");
+            document.write(Math.cos(0)  + "<br>");
+            document.write(Math.log(10)  + "<br>");
+            document.write(Math.E  + "<br>");
+            document.write(Math.PI  + "<br>");
+            document.write(Math.ceil(Math.random()*10)  + "<br>");
+           </script>
+        
+    </body>
+</html>
