@@ -1,7 +1,7 @@
 var x=5,y=6;
 
 if(x>y){
-    d ocumment.write("x y'den büyüktür!");
+    documment.write("x y'den büyüktür!");
 }
 else if(x<y){
     documment.write("x y'den küçüktür!");
