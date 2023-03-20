@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Fonksiyonlar</title>
+    </head>
+    <body>
+        <script>
+            function say(){
+                for(i=0;i<10;i++){
+                    document.write(i+"<br>");
+                }
+
+            }
+            say();
+            function say1(j){
+                for(i=0;i<j;i++){
+                    document.write(i+"<br>");
+                }
+                }
+            say1(50);
+        </script>
+    </body>
+</html>
