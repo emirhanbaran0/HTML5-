@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript DOM Seçiciler</title>
+    </head>
+    <body>
+        <p class="p1">Paragraf1</p>
+        <p class="p2">Paragraf2</p>
+        <p class="p1">Paragraf3</p>
+        <script>
+            document.getElementsByTagName("p");
+            
+            var paragraflar=document.getElementsByClassName("p1");
+            paragraflar[1].innerHTML="Emirhan";
+            document.querySelector(".p1");
+            document.querySelectorAll(".p1");
+        </script>
+    </body>
+</html>
