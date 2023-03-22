@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Nesneler</title>
+    </head>
+    <body>
+        <script>
+            var insan={
+                ad:"Levent",soyad:"Baran",yas:"32"
+            };
+            document.write(insan.ad +" " +insan.soyad+" <br>");
+            var araba={
+                marka:"Mercedes",model:"2016",renk:"Mavi",
+                 yazdir: function(){
+                    return araba.marka+" "+araba.model+" "+araba.renk+" <br>";
+                 }
+            };
+            document.write(araba.yazdir());
+            var hayvan=new Object();
+            hayvan.tur="Köpek";
+            hayvan.yas="1";
+            delete hayvan.yas;
+            document.write(hayvan.yas+" <br>");
+        </script>
+    </body>
+</html>
